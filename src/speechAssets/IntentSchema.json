@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "DsAlgoIntent",
+      "slots": [
+      {
+        "name" : "DsAlgo",
+        "type": "LIST_OF_DS_ALGOS"
+      }
+     ]
+    },
+   {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
